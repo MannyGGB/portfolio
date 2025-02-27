@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "MannyGGB - Projects",
   description: "A projects page for MannyGGB",
 };
-
+const url = "https://mannyggb-portfolio.vercel.app";
+// const localUrl = "https://localhost:3000";
 export default async function ProjectsPage() {
-  const response = await fetch(
-    "https://mannyggb-portfolio.vercel.app/api/projects"
-  );
+  const response = await fetch(`${url}/api/projects`);
   const data = await response.json();
+  console.log(data);
   return (
     <div className="flex justify-center">
       {data.map((project: projectType) => (
