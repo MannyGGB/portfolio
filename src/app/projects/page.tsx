@@ -12,11 +12,11 @@ export default async function ProjectsPage() {
   const response = await fetch("http://localhost:3000/api/projects");
   const data = await response.json();
   return (
-    <>
+    <div className="flex justify-center">
       {data.map((project: projectType) => (
         <div
           key={project.id}
-          className="flex flex-col items-center bg-slate-900 w-screen"
+          className="flex flex-col items-center bg-slate-900 max-w-sm"
         >
           <h1>{project.name}</h1>
           <Link
@@ -36,6 +36,6 @@ export default async function ProjectsPage() {
           <p className="min-w-fit">{project.description}</p>
         </div>
       ))}
-    </>
+    </div>
   );
 }
