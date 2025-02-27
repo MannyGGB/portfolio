@@ -9,7 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default async function ProjectsPage() {
-  const response = await fetch("http://localhost:3000/api/projects");
+  const response = await fetch(
+    "https://mannyggb-portfolio.vercel.app/api/projects"
+  );
   const data = await response.json();
   return (
     <div className="flex justify-center">
