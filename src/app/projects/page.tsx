@@ -8,11 +8,12 @@ export const metadata: Metadata = {
   description: "A projects page for MannyGGB",
 };
 const url = "https://mannyggb-portfolio.vercel.app";
-// const localUrl = "https://localhost:3000";
+// const localUrl = "http://localhost:3000";
 export default async function ProjectsPage() {
   const response = await fetch(`${url}/api/projects`);
   const data = await response.json();
-  console.log(data);
+
+  // console.log(data);
   return (
     <div className="flex justify-center">
       {data.map((project: projectType) => (
@@ -28,7 +29,7 @@ export default async function ProjectsPage() {
             Website
           </Link>
           <Image
-            src={`https://manyggb-portfolio-server.vercel.app/assets/${project.slug}`}
+            src={`https://mannyggb-portfolio-server.vercel.app/api/assets/${project.slug}`}
             alt={project.name}
             width={400}
             height={150}

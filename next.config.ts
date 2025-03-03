@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "manyggb-portfolio-server.vercel.app",
+        hostname: "mannyggb-portfolio-server.vercel.app",
         port: "",
-        pathname: "/assets/**",
+        pathname: "/api/assets/**",
         search: "",
       },
     ],
