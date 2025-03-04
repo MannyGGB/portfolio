@@ -1,17 +1,17 @@
-import { projectType } from "@/types/types";
+// import { projectType } from "@/types/types";
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "MannyGGB - Projects",
   description: "A projects page for MannyGGB",
 };
-const url = "https://mannyggb-portfolio.vercel.app";
-// const localUrl = "http://localhost:3000";
+// const url = "https://mannyggb-portfolio.vercel.app";
+//  const localUrl = "http://localhost:3000";
 export default async function ProjectsPage() {
-  const response = await fetch(`${url}/api/projects`);
-  const data = await response.json();
+  //   const response = await fetch(`${url}/api/projects`);
+  //   const data = await response.json();
 
   // console.log(data);
   return (
