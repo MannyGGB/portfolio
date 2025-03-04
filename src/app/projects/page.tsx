@@ -15,30 +15,31 @@ export default async function ProjectsPage() {
 
   // console.log(data);
   return (
-    <div className="flex justify-center">
-      {data.map((project: projectType) => (
-        <div
-          key={project.id}
-          className="flex flex-col items-center bg-slate-900 max-w-sm"
-        >
-          <h1>{project.name}</h1>
-          <Link
-            href={project.link}
-            className=" font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800"
-          >
-            Website
-          </Link>
-          <Image
-            src={`https://mannyggb-portfolio-server.vercel.app/api/assets/${project.slug}`}
-            alt={project.name}
-            width={400}
-            height={150}
-            loading="lazy"
-            className="rounded-md"
-          />
-          <p className="min-w-fit">{project.description}</p>
-        </div>
-      ))}
-    </div>
+    <h1>Projects</h1>
+    // <div className="flex justify-center">
+    //   {data.map((project: projectType) => (
+    //     <div
+    //       key={project.id}
+    //       className="flex flex-col items-center bg-slate-900 max-w-sm"
+    //     >
+    //       <h1>{project.name}</h1>
+    //       <Link
+    //         href={project.link}
+    //         className=" font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800"
+    //       >
+    //         Website
+    //       </Link>
+    //       <Image
+    //         src={`https://mannyggb-portfolio-server.vercel.app/api/assets/${project.slug}`}
+    //         alt={project.name}
+    //         width={400}
+    //         height={150}
+    //         loading="lazy"
+    //         className="rounded-md"
+    //       />
+    //       <p className="min-w-fit">{project.description}</p>
+    //     </div>
+    //   ))}
+    // </div>
   );
 }
