@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default async function ProjectsPage() {
-  const url = "https://mannyggb-portfolio.vercel.app";
-  // const url = "http://localhost:3000";
-  const response = await fetch(`${url}/api/projects`);
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_SERVER_URL}/api/projects`
+  );
   const data = await response.json();
 
   return (
