@@ -22,6 +22,8 @@ git clone git@github.com:MannyGGB/portfolio.git
 npm i
 ```
 
+- Create a .env.development file
+
 - Run the development server:
 
 ```bash
