@@ -10,7 +10,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ### Getting Started
 
-First, run the development server:
+- Clone this repo
+
+```bash
+git clone git@github.com:MannyGGB/portfolio.git
+```
+
+- Run the development server:
 
 ```bash
 npm run dev
