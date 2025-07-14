@@ -13,16 +13,34 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - Clone this repo
 
 ```bash
+
 git clone git@github.com:MannyGGB/portfolio.git
+
 ```
 
 - Install dependencies
 
 ```bash
+
 npm i
+
 ```
 
-- Create a .env.development file
+- Create a .env.development file in the root folder. Add your own local host variable:
+
+```
+
+NEXT_PUBLIC_SERVER_URL="http://localhost:port"
+
+```
+
+- Create a .env.production file in the root folder. Add your own deployed URL variable:
+
+```
+
+NEXT_PUBLIC_SERVER_URL="https://mydeployedurl.com"
+
+```
 
 - Run the development server:
 
@@ -36,7 +54,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open your local host with your browser to see the result.
 
 ## Project Stack
 
