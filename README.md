@@ -58,7 +58,7 @@ bun dev
 
 ## Project Stack
 
-- Next.js
+- Next.js 15
 - TypeScript
 - Tailwind
 
