@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center">
-      <p>&copy; Manuel Gonzalez</p>
+    <div className="flex flex-col items-center mt-auto">
+      <p>&copy; Manuel Gonzalez 2025</p>
       <nav className="flex">
         <Link
           href={"https://github.com/MannyGGB"}

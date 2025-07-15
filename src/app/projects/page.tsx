@@ -15,17 +15,17 @@ export default async function ProjectsPage() {
   const data = await response.json();
 
   return (
-    <div className="grid grid-cols-3 grid-rows-none flex-col justify-center">
+    <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] flex-col justify-center">
       {data.map((project: projectType) => (
         <div
           key={project.id}
           className="flex flex-col items-center bg-slate-900 max-w-sm max-h-fit m-4 p-2 rounded-xl border-rose-500 border-2"
         >
-          <h1 className="text-lg">{project.name}</h1>
+          <h1 className="text-2xl">{project.name}</h1>
           {project.link === "#" ? null : (
             <Link
               href={project.link}
-              className=" font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
+              className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
             >
               Website
             </Link>
@@ -39,7 +39,7 @@ export default async function ProjectsPage() {
             loading="lazy"
             className="rounded-xl p-2"
           />
-          <p className="min-w-fit p-2 text-justify">{project.description}</p>
+          <p className="min-w-fit p-2">{project.description}</p>
         </div>
       ))}
     </div>
