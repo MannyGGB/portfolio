@@ -17,30 +17,31 @@ export default function HomePage() {
           className="rounded-full"
         />
         <div className="flex flex-col">
-          <h2>Hello there!</h2>
+          <h2>Hello there! 👋🏻</h2>
           <h1>I&apos;m Manny</h1>
-          <h3>Full-stack developer and software development instructor</h3>
+          <h2>Full-stack developer and software development instructor</h2>
+          <article className="flex flex-col pt-4 gap-1">
+            <span>
+              🪴 Passionate learner, always looking for the next challenge!
+            </span>
+            <span>
+              🌍 I am also a former ESOL course leader, so I value working with
+              a wide variety of dynamic and inclusive teams.
+            </span>
+            <span>
+              🎯 I am currently expanding my skills to enter the world of
+              DevOps.
+            </span>
+            <span> ⚙️ Focused on bash scripts and AWS at the moment.</span>
+          </article>
         </div>
       </section>
 
-      <section>
-        <article className="flex flex-col">
-          <span>
-            Passionate learner, always looking for the next challenge!
-          </span>
-          <span>
-            I am also a former ESOL course leader, so I value working with a
-            wide variety of dynamic and inclusive teams.
-          </span>
-          <span>
-            I am currently expanding my skills to enter the world of DevOps.
-          </span>
-        </article>
-      </section>
-      <div className="flex justify-evenly p-12">
-        <section className="size-fit border-rose-500 border-2 p-8 m-2 rounded-xl ">
-          <h2 className="text-2xl">Tech Stack</h2>
+      <div className="flex justify-evenly p-6 size-full">
+        <section className="flex flex-col items-center">
+          <h2>Tech Stack</h2>
           <ul>
+            <li>TypeScript</li>
             <li>React</li>
             <li>Next.js</li>
             <li>Node.js</li>
@@ -50,20 +51,22 @@ export default function HomePage() {
             <li>Git</li>
           </ul>
         </section>
-        <section className="size-fit border-rose-500 border-2 p-8 m-2 rounded-xl ">
-          <h2 className="text-2xl">Tools</h2>
+        <section className="flex flex-col items-center">
+          <h2>Development Tools</h2>
           <ul>
             <li>Vite and Vitest</li>
             <li>Supabase</li>
             <li>Vercel</li>
             <li>Render</li>
             <li>GitHub</li>
+            <li>Docker</li>
+            <li>VSCode</li>
             <li>Trello</li>
             <li>Figma</li>
           </ul>
         </section>
-        <section className="size-fit border-rose-500 border-2 p-8 m-2 rounded-xl ">
-          <h2 className="text-2xl">Skills</h2>
+        <section className="flex flex-col items-center">
+          <h2>Professional Skills</h2>
           <ul>
             <li>Agile and scrum</li>
             <li>Problem-solving</li>
@@ -76,7 +79,7 @@ export default function HomePage() {
         </section>
       </div>
       <p className="p-4">
-        Check how I used my stack and skills in my{" "}
+        💡 Check how I used my stack, tools, and skills in my{" "}
         <Link
           href={"/projects"}
           className="font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"

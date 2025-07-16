@@ -21,11 +21,13 @@ export default async function ProjectsPage() {
           key={project.id}
           className="flex flex-col items-center bg-slate-900 max-w-sm max-h-fit m-4 p-2 rounded-xl border-rose-500 border-2"
         >
-          <h1 className="text-2xl">{project.name}</h1>
+          <h2>{project.name}</h2>
           {project.link === "#" ? null : (
             <Link
               href={project.link}
               className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Website
             </Link>
