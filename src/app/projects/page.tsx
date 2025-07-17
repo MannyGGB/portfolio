@@ -25,9 +25,9 @@ export default async function ProjectsPage() {
           {project.link === "#" ? null : (
             <Link
               href={project.link}
-              className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
               rel="noopener noreferrer"
               target="_blank"
+              className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
             >
               Website
             </Link>
