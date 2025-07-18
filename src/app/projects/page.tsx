@@ -22,17 +22,28 @@ export default async function ProjectsPage() {
           className="flex flex-col items-center bg-slate-900 max-w-sm max-h-fit m-4 p-2 rounded-xl border-rose-500 border-2"
         >
           <h2>{project.name}</h2>
-          {project.link === "#" ? null : (
-            <Link
-              href={project.link}
-              rel="noopener noreferrer"
-              target="_blank"
-              className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
-            >
-              Website
-            </Link>
-          )}
-
+          <nav className="flex justify-around w-full">
+            {project.link === "#" ? null : (
+              <Link
+                href={project.link}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
+              >
+                Website
+              </Link>
+            )}
+            {project.github === "#" ? null : (
+              <Link
+                href={project.github}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="text-xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] hover:text-purple-800 hover:underline"
+              >
+                Repo
+              </Link>
+            )}
+          </nav>
           <Image
             src={`https://mannyggb-portfolio-server.vercel.app/api/assets/${project.slug}`}
             alt={project.name}
