@@ -5,7 +5,7 @@ import manny from "@/../public/manny.png";
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center">
-      <section className="flex justify-center items-center size-fit ">
+      <section className="flex justify-center items-center size-fit">
         <Image
           src={manny}
           alt={
