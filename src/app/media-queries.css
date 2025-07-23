@@ -1,4 +1,9 @@
 /* media queries for the home page */
+@media all and (max-width: 990px) {
+  .hero-list li {
+    font-size: 0.9rem;
+  }
+}
 
 @media all and (max-width: 750px) {
   h1 {
@@ -14,20 +19,24 @@
   }
 
   p,
-  li,
-  span {
+  li {
     font-size: 1rem;
   }
 
-  .hero {
+  .hero,
+  .hero-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
   }
 }
 
+@media all and (max-width: 600px) {
+  .hero li {
+    font-size: 0.75rem;
+  }
+}
 @media all and (max-width: 480px) {
   h1 {
     font-size: 2rem;
@@ -44,14 +53,54 @@
   p,
   li,
   span {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 
-  .hero {
+  .hero,
+  .hero-list {
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 420px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  p,
+  li,
+  span {
+    font-size: 0.6rem;
+  }
+
+  .hero,
+  .hero-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-list {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
