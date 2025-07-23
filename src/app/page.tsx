@@ -22,25 +22,21 @@ export default function HomePage() {
           <h1>I&apos;m Manny</h1>
           <h2>Full-stack developer and</h2>
           <h2>software development instructor</h2>
-          <article className="flex flex-col pt-4 gap-1 hero">
-            <span>
+          <ul className="flex flex-col pt-4 gap-1 hero-list">
+            <li>
               🪴 Passionate learner, always looking for the next challenge!
-            </span>
-            <span>🌍 I am also a former ESOL course leader.</span>
-            <span>
-              🫱🏻‍🫲🏾 I value working within dynamic and inclusive teams.
-            </span>
-            <span>
-              🎯 I am expanding my skills to enter the world of DevOps.
-            </span>
-            <span>⚙️ Focused on bash scripts and AWS at the moment.</span>
-          </article>
+            </li>
+            <li>🌍 I am also a former ESOL course leader.</li>
+            <li>🫱🏻‍🫲🏾 I value working within dynamic and inclusive teams.</li>
+            <li>🎯 I am expanding my skills to enter the world of DevOps.</li>
+            <li>⚙️ Focused on bash scripts and AWS at the moment.</li>
+          </ul>
         </div>
       </section>
 
-      <div className="flex justify-evenly p-7 size-full flex-wrap">
+      <div className="flex justify-evenly p-6 size-full flex-wrap">
         <section className="flex flex-col items-center">
-          <h2>Tech Stack</h2>
+          <h2 className="p-4">Tech Stack</h2>
           <ul>
             <li>TypeScript</li>
             <li>React</li>
@@ -53,7 +49,7 @@ export default function HomePage() {
           </ul>
         </section>
         <section className="flex flex-col items-center">
-          <h2>Development Tools</h2>
+          <h2 className="p-4">Development Tools</h2>
           <ul>
             <li>Vite and Vitest</li>
             <li>Supabase</li>
@@ -67,7 +63,7 @@ export default function HomePage() {
           </ul>
         </section>
         <section className="flex flex-col items-center">
-          <h2>Professional Skills</h2>
+          <h2 className="p-4">Professional Skills</h2>
           <ul>
             <li>Agile and scrum</li>
             <li>Problem-solving</li>
