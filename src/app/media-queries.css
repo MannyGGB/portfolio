@@ -33,6 +33,9 @@
 
   .hero-titles {
     align-items: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    text-align: center;
   }
 }
 
@@ -41,7 +44,7 @@
     font-size: 0.75rem;
   }
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   h1 {
     font-size: 2rem;
   }
@@ -55,15 +58,13 @@
   }
 
   p,
-  li,
-  span {
+  li {
     font-size: 0.6rem;
   }
 
   .hero,
   .hero-list {
-    padding-left: 30px;
-    padding-right: 30px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,8 +86,7 @@
   }
 
   p,
-  li,
-  span {
+  li {
     font-size: 0.6rem;
   }
 
@@ -99,8 +99,7 @@
   }
 
   .hero-list {
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +109,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 0.75rem;
     display: inline-flex;
   }
 }
