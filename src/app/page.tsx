@@ -21,8 +21,7 @@ export default function HomePage() {
           <div className="flex flex-col flex-wrap hero-titles">
             <h2>Hello there! 👋🏻</h2>
             <h1>I&apos;m Manny</h1>
-            <h2>Full-stack developer and</h2>
-            <h2>software development instructor</h2>
+            <h2>Full-stack developer and software development instructor</h2>
           </div>
           <ul className="flex flex-col pt-4 gap-1 hero-list">
             <li>
@@ -77,7 +76,7 @@ export default function HomePage() {
           </ul>
         </section>
       </div>
-      <p className="p-4">
+      <p className="p-4 text-center">
         💡 Check how I used my stack, tools, and skills in my{" "}
         <Link
           href={"/projects"}
