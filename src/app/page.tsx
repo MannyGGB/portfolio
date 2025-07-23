@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import manny from "@/../public/manny.png";
+import "./media-queries.css";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center">
-      <section className="flex justify-center items-center size-fit">
+      <section className="flex justify-center items-center size-fit hero">
         <Image
           src={manny}
           alt={
@@ -16,28 +17,28 @@ export default function HomePage() {
           loading="lazy"
           className="rounded-full"
         />
-        <div className="flex flex-col">
+        <div className="flex flex-col hero">
           <h2>Hello there! 👋🏻</h2>
           <h1>I&apos;m Manny</h1>
-          <h2>Full-stack developer and software development instructor</h2>
-          <article className="flex flex-col pt-4 gap-1">
+          <h2>Full-stack developer and</h2>
+          <h2>software development instructor</h2>
+          <article className="flex flex-col pt-4 gap-1 hero">
             <span>
               🪴 Passionate learner, always looking for the next challenge!
             </span>
+            <span>🌍 I am also a former ESOL course leader.</span>
             <span>
-              🌍 I am also a former ESOL course leader, so I value working with
-              a wide variety of dynamic and inclusive teams.
+              🫱🏻‍🫲🏾 I value working within dynamic and inclusive teams.
             </span>
             <span>
-              🎯 I am currently expanding my skills to enter the world of
-              DevOps.
+              🎯 I am expanding my skills to enter the world of DevOps.
             </span>
-            <span> ⚙️ Focused on bash scripts and AWS at the moment.</span>
+            <span>⚙️ Focused on bash scripts and AWS at the moment.</span>
           </article>
         </div>
       </section>
 
-      <div className="flex justify-evenly p-6 size-full">
+      <div className="flex justify-evenly p-7 size-full flex-wrap">
         <section className="flex flex-col items-center">
           <h2>Tech Stack</h2>
           <ul>
