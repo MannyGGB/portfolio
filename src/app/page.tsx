@@ -18,10 +18,12 @@ export default function HomePage() {
           className="rounded-full"
         />
         <div className="flex flex-col hero">
-          <h2>Hello there! 👋🏻</h2>
-          <h1>I&apos;m Manny</h1>
-          <h2>Full-stack developer and</h2>
-          <h2>software development instructor</h2>
+          <div className="flex flex-col flex-wrap hero-titles">
+            <h2>Hello there! 👋🏻</h2>
+            <h1>I&apos;m Manny</h1>
+            <h2>Full-stack developer and</h2>
+            <h2>software development instructor</h2>
+          </div>
           <ul className="flex flex-col pt-4 gap-1 hero-list">
             <li>
               🪴 Passionate learner, always looking for the next challenge!
