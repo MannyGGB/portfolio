@@ -87,6 +87,7 @@
 
   p,
   li {
+    /* reassess sizes */
     font-size: 0.6rem;
   }
 
