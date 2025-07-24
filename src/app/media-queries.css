@@ -59,7 +59,7 @@
 
   p,
   li {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
 
   .hero,
@@ -87,8 +87,7 @@
 
   p,
   li {
-    /* reassess sizes */
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
 
   .hero,
