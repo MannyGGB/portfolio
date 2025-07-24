@@ -1,0 +1,10 @@
+.navbar {
+  display: none;
+}
+
+@media all and (max-width: 990px) {
+  .footernavbar {
+    display: block;
+    display: flex;
+  }
+}
