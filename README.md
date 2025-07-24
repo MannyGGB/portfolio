@@ -64,4 +64,4 @@ bun dev
 
 ## Attributions
 
-- Portfolio icons created by [Freepik](https://www.flaticon.com/free-icons/portfolio)
+- Portfolio icons created by [Freepik](https://www.flaticon.com/free-icons/portfolio) and [UnicornLabs](https://www.flaticon.com/free-icons/email")
