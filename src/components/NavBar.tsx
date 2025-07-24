@@ -28,7 +28,7 @@ export default function NavBar() {
         Resume
       </Link> */}
       </div>
-      <div className={`flex justify-end p-4 size-fit absolute left-11/12`}>
+      <div className={`flex justify-end p-4 size-fit`}>
         <Link
           href={"https://github.com/MannyGGB"}
           rel="noopener noreferrer"
