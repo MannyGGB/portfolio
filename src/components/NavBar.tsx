@@ -3,6 +3,7 @@ import Image from "next/image";
 import github_logo from "@/../public/github-mark-white.svg";
 import linkedin_logo from "@/../public/LI-In-Bug-crop.png";
 import email_logo from "@/../public/email_logo.png";
+import navbarStyles from "./navbar.module.css";
 
 export default function NavBar() {
   return (
@@ -27,7 +28,9 @@ export default function NavBar() {
         Resume
       </Link> */}
       </div>
-      <div className={`flex justify-around p-4 size-fit`}>
+      <div
+        className={`flex justify-around p-4 size-fit ${navbarStyles.topnavbar}`}
+      >
         <Link
           href={"https://github.com/MannyGGB"}
           rel="noopener noreferrer"
