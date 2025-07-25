@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import github_logo from "@/../public/github-mark-white.svg";
-import linkedin_logo from "@/../public/LI-In-Bug-crop.png";
+import linkedin_logo from "@/../public/linkedin_logo.png";
 import email_logo from "@/../public/email_logo.png";
 import footernavbarStyles from "./footernavbar.module.css";
 
