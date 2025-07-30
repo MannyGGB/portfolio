@@ -2,8 +2,9 @@
 
 ## Project Description
 
-This is a portfolio site to showcase my personal projects.
-Express is serving the data and assets for this project.
+- This is a portfolio site to showcase my personal projects.
+- Express is serving the data and assets for this project.
+- Version control managed through bash scripts and Git Actions.
 
 ## Project Set-up
 
