@@ -3,6 +3,7 @@
 ## Project Description
 
 This is a portfolio site to showcase my personal projects.
+Express is serving the data and assets for this project.
 
 ## Project Set-up
 
@@ -60,7 +61,7 @@ bun dev
 
 - Next.js 15
 - TypeScript
-- Tailwind
+- Tailwind CSS
 
 ## Attributions
 
