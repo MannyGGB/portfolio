@@ -21,16 +21,20 @@ export default function HomePage() {
           <div className="flex flex-col flex-wrap hero-titles">
             <h2>Hello there! 👋🏻</h2>
             <h1>I&apos;m Manny</h1>
-            <h2>Full-stack developer and software development instructor</h2>
+            <h2>Software developer and software development instructor</h2>
           </div>
           <ul className="flex flex-col pt-4 gap-1 hero-list">
+            <li>💻 I am an organiser and coach at codebar Norwich.</li>
+            <li>🌍 I am also a former ESOL course leader.</li>
             <li>
               🪴 Passionate learner, always looking for the next challenge!
             </li>
-            <li>🌍 I am also a former ESOL course leader.</li>
+
             <li>🫱🏻‍🫲🏾 I value working within dynamic and inclusive teams.</li>
             <li>🎯 I am expanding my skills to enter the world of DevOps.</li>
-            <li>⚙️ Focused on bash scripts and AWS at the moment.</li>
+            <li>
+              ⚙️ Currently learning about shell scripting and cloud storage.
+            </li>
           </ul>
         </div>
       </section>
