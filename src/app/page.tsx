@@ -31,7 +31,6 @@ export default function HomePage() {
             </li>
 
             <li>🫱🏻‍🫲🏾 I value working within dynamic and inclusive teams.</li>
-            <li>🎯 I am expanding my skills to enter the world of DevOps.</li>
             <li>
               ⚙️ Currently learning about shell scripting and cloud storage.
             </li>
